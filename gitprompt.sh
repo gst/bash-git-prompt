@@ -116,7 +116,7 @@ function git_prompt_config()
   fi
 
   if [ "x${GIT_PROMPT_END}" == "x" ]; then
-    PROMPT_END=" \n$ITALIC${Magenta}${Time12a}${ResetColor} $ "
+    PROMPT_END=" \n${FGRN}$HC${Time12a}${ResetColor} $ "
   else
     PROMPT_END="${GIT_PROMPT_END}"
   fi
